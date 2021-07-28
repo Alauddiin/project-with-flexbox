@@ -1,0 +1,88 @@
+/* medium layout 1200px*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* tablet layout 768px*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+  .single-gallery {
+    flex-basis: 20%;
+  }
+}
+/* mobile layout 320px*/
+@media screen and (max-width: 767px) {
+  .container {
+    width: 300px;
+  }
+  .header-content {
+    flex-direction: column;
+  }
+  .menu li a {
+    margin-left: 1.5rem;
+  }
+  .menu li:last-child {
+    margin-left: 0;
+  }
+  .banner-area img,
+  .service-area img {
+    width: 300px;
+  }
+  .section-title {
+    padding: 2rem 0rem;
+  }
+  .section-title h1 {
+    font-size: 2.4rem;
+    padding-bottom: 1.5rem;
+  }
+  .single-about {
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+  }
+  .service {
+    flex-direction: column;
+  }
+  .single-service {
+    margin-bottom: 2rem;
+    flex-basis: 100%;
+  }
+  .banner-area,
+  .about-area,
+  .service-area,
+  .gallery-area,
+  .contact-area {
+    padding: 0 0 4rem 0;
+  }
+  .single-gallery {
+    flex-basis: 47%;
+  }
+  .contact-form {
+    margin-bottom: 2.5rem;
+  }
+  .contact-form,
+  .contact-address {
+    flex-basis: 100%;
+  }
+  .contact-form form input,
+  textarea {
+    width: 90%;
+  }
+  .address,
+  .phone,
+  .email,
+  .website {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+}
+
+/* wide mobile layout 480px*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+}
